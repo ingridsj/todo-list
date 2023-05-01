@@ -1,4 +1,4 @@
-import { View, Image, TextInput, Text, TouchableOpacity } from "react-native";
+import { View, Text } from "react-native";
 import { styles } from "./styles";
 
 type LabelProps = {
