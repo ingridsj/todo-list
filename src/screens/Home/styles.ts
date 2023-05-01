@@ -45,5 +45,8 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 24,
     marginTop: 32,
     marginBottom: 20
+  },
+  taskContainer: {
+    paddingHorizontal: 24,
   }
 })
