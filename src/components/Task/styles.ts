@@ -8,7 +8,7 @@ export const styles = (props: StylesProps) => StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row',
-    // justifyContent: 'space-between',
+    justifyContent: 'space-between',
     alignItems: 'center',
     paddingLeft: 12,
     paddingRight: 8,
@@ -24,7 +24,7 @@ export const styles = (props: StylesProps) => StyleSheet.create({
     color: props.isComplete ? '#808080' : '#F2F2F2',
     textDecorationLine: props.isComplete ? 'line-through' : 'none',
     fontSize: 14,
-    // paddingLeft: 8,
+    paddingLeft: 8,
     maxWidth: 300,
     textAlign: 'left'
   },
