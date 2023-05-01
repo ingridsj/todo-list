@@ -1,4 +1,6 @@
-import { View, Image, TextInput, TouchableOpacity } from "react-native";
+import { View, Image, TextInput, Text, TouchableOpacity } from "react-native";
+
+import { Label } from "../../components/Label";
 
 import { styles } from "./styles";
 
@@ -20,6 +22,10 @@ export function Home() {
         <TouchableOpacity style={styles.button}>
           <Image source={plus} />
         </TouchableOpacity>
+      </View>
+      <View style={styles.info}>
+        <Label title="Criadas" color="#4EA8DE" quantity={0} />
+        <Label title="Concluídas" color="#8284FA" quantity={2} />
       </View>
     </View>
   );
